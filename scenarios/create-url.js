@@ -4,10 +4,10 @@ import { check, sleep } from 'k6';
 export default function() {
   const body = {
     longUrl: 'https://api-spec.shlink.io',
-    tags: ['foo', 'bar', 'baz', 'foo4']
+    tags: ['foo', 'bar', 'baz']
   };
   const headers = {
-    'X-Api-Key': '7a531c75-134e-4d5c-86e0-a71b7167b57a',
+    'X-Api-Key': 'valid_api_key',
     'Content-type': 'application/json',
     'Accept': 'application/json',
   };
